@@ -15,10 +15,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-
-    <config-file platform="android" parent="/manifest">
-    <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
-</config-file>
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
@@ -98,14 +94,7 @@
         <icon height="360" platform="windows" src="res/icon/windows/Wide310x150Logo.scale-240.png" width="744" />
         <splash height="1920" platform="windows" src="res/screen/windows/SplashScreenPhone.scale-240.png" width="1152" />
     </platform>
-    <!-- <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.NetworkManager" />
-    </feature> -->
-    <!-- <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
-    <plugin name="cordova-plugin-vibration" spec="3.1.1" />
-    <plugin name="cordova-plugin-whitelist" spec="1.3.4" />
     <engine name="browser" spec="^5.0.4" />
     <engine name="android" spec="^7.1.4" />
+    <plugin name="cordova-plugin-vibration" spec="3.1.1" />
 </widget>
