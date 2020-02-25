@@ -1,0 +1,58 @@
+<!-- definiendo el nombre de la vista contenida en el html -->
+<div data-name="notas" class="page">
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <a href="#" class="link back">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Volver</span>
+                </a>
+            </div>
+            <div class="title">Notas</div>
+        </div>
+    </div>
+
+    <!-- Contenido principal de la página -->
+    <div class="page-content">
+        <!-- componentes para filtrar el semestre y periodo de las calificaciones de cada asignatura que tenga el
+      alumno-->
+        <div class="list" id="periodo">
+            <div class="row no-gap">
+                <div class="col-66">
+                    <div class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Periodo</div>
+                            <div class="item-input-wrap">
+                                <select id="select-semestres">
+                                    <!-- <option value="1" selected>Semestre 1</option>
+                                    <option value="2">Semestre 2</option> -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+
+                    <div class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Año</div>
+                            <!-- <div class="item-input-wrap">
+                                    <input id="anyo" type="number" name="anyo" placeholder="2019">
+                                </div> -->
+                            <div class="item-input-wrap">
+                                <input required="true" type="number" name="anyo" id="anyo" placeholder="2019">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="list" id="resumenNotas">
+
+        </div>
+
+
+    </div>
+</div>

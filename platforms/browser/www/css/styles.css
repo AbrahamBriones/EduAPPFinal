@@ -1,0 +1,145 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+/*
+Hoja de estilos para el diseño de los componentes de la aplicación
+*/
+.statusbar-overlay {
+    background: #000000;
+}
+
+.columna {
+    width:33%;
+    float:left;
+}
+
+.columna2 {
+    width:50%;
+    float:left;
+}
+
+.letraNota{
+  font-size: 20pt;
+  text-align: center;
+  color: #585858;
+}
+
+.content-modal{
+  margin: 20px;
+}
+
+.letraFecha{
+  font-size: 10pt;
+  text-align: left;
+  color: #585858;
+}
+
+.titulos{
+  font-size: 15pt;
+  text-align: left;
+  color: #585858;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.letraPromedio{
+  font-size: 7pt;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+    /*clase que modifica los parametros del contenedor que almacena la imagen de los profesores*/
+  .imagen-profesor{
+    width:80px;
+    height:80px;
+    border-radius:40px;
+  }
+
+  .imagen-profesorAnotacion{
+    width:40px;
+    height:40px;
+  }
+  /*clase que modifica los parametros del contenedor que almacena la imagen del alumno*/
+  .foto-alumno{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+  }
+
+  .boton-curso{
+    width:50px;
+    height:20px;
+  }
+
+  .fecha{
+    font-size: 14px;
+    color: #6E6E6E;
+    align: right;
+  }
+ 
+  span.contador {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 15px;
+  }
+  .cerrar-sesion{
+    text-align:center;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.tarjeta-inasistencia{
+  background-color: #A9BCF5;
+}

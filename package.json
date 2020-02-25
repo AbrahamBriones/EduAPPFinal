@@ -1,0 +1,22 @@
+{
+    "name": "cl.ubiobio.eduapp",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "displayName": "EduAPP",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-vibration": "3.1.1"
+    },
+    "cordova": {
+        "platforms": [
+            "browser",
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-vibration": {}
+        }
+    }
+}

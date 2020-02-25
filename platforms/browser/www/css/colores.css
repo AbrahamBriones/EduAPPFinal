@@ -1,0 +1,651 @@
+
+/* Ovalos de colores */
+.Aovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:rgb(212, 96, 0);
+    border-radius: 15px;
+}
+
+.Bovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(163, 70, 132);
+    border-radius: 15px;
+}
+
+.Covalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(75, 199, 71);
+    border-radius: 15px;
+}
+
+.Dovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(255, 232, 98);
+    border-radius: 15px;
+}
+
+.Eovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#8904B1;
+    border-radius: 15px;
+}
+
+.Fovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:rgb(131, 0, 0);
+    border-radius: 15px;
+}
+
+.Govalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(78, 175, 255); 
+    border-radius: 15px;
+}
+
+.Hovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#61380B;
+    border-radius: 15px;
+}
+
+.Iovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#FFBF00;
+    border-radius: 15px;
+}
+
+.Jovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(237, 135, 250);
+    border-radius: 15px;
+}
+
+.Kovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(54, 102, 32);
+    border-radius: 15px;
+}
+
+.Lovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.Movalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5178D0;
+    border-radius: 15px;
+}
+
+.Novalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(75, 39, 16);
+    border-radius: 15px;
+}
+
+.Ñovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(56, 54, 51);
+    border-radius: 15px;
+}
+
+.Oovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(12, 223, 206);
+    border-radius: 15px;
+}
+
+.Povalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(83, 11, 199);
+    border-radius: 15px;
+}
+
+.Qovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(204, 67, 112);
+    border-radius: 15px;
+}
+
+.Rovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(22, 88, 5);
+    border-radius: 15px;
+}
+
+.Sovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(128, 15, 20);
+    border-radius: 15px;
+}
+
+.Tovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5178D0;
+    border-radius: 15px;
+}
+
+.Uovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(162, 53, 38);
+    border-radius: 15px;
+}
+
+.Vovalo{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(0, 65, 119);
+    border-radius: 15px;
+}
+
+.Wovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(31, 143, 21);
+    border-radius: 15px;
+}
+
+.Xovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(0, 60, 83);
+    border-radius: 15px;
+}
+
+.Yovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(143, 0, 119);
+    border-radius: 15px;
+}
+
+.Zovalo {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:rgb(92, 194, 52);
+    border-radius: 15px;
+}
+
+
+/* Círculos de colores numerados */
+.Acirculo {
+    background: rgb(212, 96, 0);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Bcirculo {
+    background: rgb(163, 70, 132);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ccirculo {
+    background: rgb(75, 199, 71);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Dcirculo {
+    background: rgb(255, 232, 98);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ecirculo {
+    background: #8904B1;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Fcirculo {
+    background: rgb(131, 0, 0);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Gcirculo {
+    background: rgb(78, 175, 255);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Hcirculo {
+    background: #61380B;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Icirculo {
+    background: #FFBF00;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Jcirculo {
+    background: rgb(237, 135, 250);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Kcirculo {
+    background: rgb(54, 102, 32);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Lcirculo {
+    background: red;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Mcirculo {
+    background: #5178D0;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ncirculo {
+    background: rgb(75, 39, 16);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ñcirculo {
+    background: rgb(56, 54, 51);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ocirculo {
+    background: rgb(12, 223, 206);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Pcirculo {
+    background: rgb(83, 11, 199);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Qcirculo {
+    background: rgb(204, 67, 112);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Rcirculo {
+    background: rgb(22, 88, 5);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Scirculo {
+    background: rgb(128, 15, 20);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Tcirculo {
+    background: #5178D0;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ucirculo {
+    background: rgb(162, 53, 38);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Vcirculo {
+    background: rgb(0, 65, 119);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Wcirculo {
+    background: rgb(31, 143, 21);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Xcirculo {
+    background: rgb(0, 60, 83);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Ycirculo {
+    background: rgb(143, 0, 119);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.Zcirculo {
+    background: rgb(92, 194, 52);
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}

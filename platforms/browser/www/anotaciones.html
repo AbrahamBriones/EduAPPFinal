@@ -1,0 +1,114 @@
+<!-- definiendo el nombre de la vista contenida en el html -->
+<div data-name="anotaciones" class="page">
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+        <div class="left">
+            <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="ios-only">Back</span>
+            </a>
+        </div>
+        <div class="title">Anotaciones</div>
+        </div>
+    </div>
+
+    <div class="subnavbar">
+        <div class="subnavbar-inner">
+          <!-- Subnavbar content, for example tabs buttons -->
+          <div class="segmented sub-nav">
+            <a href="#tab1" class="button no-ripple">Positivas</a>
+            <a href="#tab2" class="button button-active no-ripple"> Negativas <span class="contador">4</span></a>
+          </div>
+        </div>
+    </div>
+    <!-- Scrollable page content -->
+    <div class="page-content">
+        <!-- modulo para filtrar semestre -->
+        <form class="list" id="my-form">
+            <div class="row no-gap">
+                <div class="col-66">
+                    <div class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Periodo</div>
+                            <div class="item-input-wrap">
+                                <select name="gender">
+                                    <option value="male" selected>Semestre 1</option>
+                                    <option value="female">Semestre 2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Año</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="año" placeholder="2019">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+                <!-- tarjeta para almacenar la información descriptiva de las anotaciones que tiene un alumno
+                por asignatura -->
+                <div class="card">
+                        <div class="list">
+                                <div class="item-content">
+                                    <div class="item-media"><img  class="imagen-profesorAnotacion" src="imagenes/profesor.png"/></div>
+                                    <div class="item-inner">
+                                        <div class="item-title">Jaime Contreras</div>
+                                        <div class="item-after">04-06-2019</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card-content card-content-padding"><p>Alumno llega tarde a la clase en reiteradas ocasiones </p></div>
+                        <div class="card-footer"><span class="yellowEtiquetaAnot">Religión</span></div>
+                </div>
+
+                 <div class="card">
+                        <div class="list">
+                                <div class="item-content">
+                                    <div class="item-media"><img  class="imagen-profesorAnotacion" src="imagenes/profesora.png"/></div>
+                                    <div class="item-inner">
+                                        <div class="item-title">Katherine Pinto</div>
+                                        <div class="item-after">20-05-2019</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card-content card-content-padding"><p>Alumno no pone atención en clases </p></div>
+                        <div class="card-footer"><span class="greenEtiquetaAnot">Ciencias Naturales</span></div>
+                </div>
+
+                <div class="card">
+                        <div class="list">
+                                <div class="item-content">
+                                    <div class="item-media"><img  class="imagen-profesorAnotacion" src="imagenes/profesor.png"/></div>
+                                    <div class="item-inner">
+                                        <div class="item-title">Pablo Poblete</div>
+                                        <div class="item-after">23-04-2019</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card-content card-content-padding"><p>Alumno pide permiso para ir al baño y no regresa</p></div>
+                        <div class="card-footer"><span class="brownEtiquetaAnot">Historia</span></div>
+                </div>
+
+
+                   <div class="card">
+                        <div class="list">
+                            <div class="item-content">
+                                <div class="item-media"><img  class="imagen-profesorAnotacion" src="imagenes/profesora.png"/></div>
+                                <div class="item-inner">
+                                    <div class="item-title">Bernarda Huentupil</div>
+                                    <div class="item-after">25-03-2019</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content card-content-padding"><p>Alumno no guarda silencio durante la clase cuando se está explicando los contenidos </p></div>
+                        <div class="card-footer"><span class="purpleEtiquetaAnot">Matemática</span></div>
+                    </div>
+
+</div>

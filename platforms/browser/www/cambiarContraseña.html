@@ -1,0 +1,70 @@
+<!-- definiendo el nombre de la vista contenida en el html -->
+<div data-name="cambiarContraseña" class="page">
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <a href="#" class="link back">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Volver</span>
+                </a>
+            </div>
+            <div class="title">Contraseña</div>
+        </div>
+    </div>
+
+    <!-- Contenido principal de la página -->
+    <div class="page-content">
+        <div class="block-title">Cambiar Contraseña EduAPP</div>
+        <div class="list">
+            <ul>
+                <br>
+                <li id="input-actual" class="item-content item-input item-input">
+                    <div class="item-inner">
+                        <div class="item-title item-label">Contraseña actual</div>
+                        <div class="item-input-wrap">
+                            <input type="password" name="actual" id="actual" required validate>
+                            <div id="errorActual" class="item-input-error-message">Completa este campo</div>
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="input-nueva" class="item-content item-input item-input-with-info">
+                    <div class="item-inner">
+                        <div class="item-title item-label">Contraseña nueva</div>
+                        <div class="item-input-wrap">
+                            <input type="password" name="nueva" id="nueva" placeholder="Entre 8 y 16 caracteres"
+                                class="input-with-value input-invalid">
+                            <div class="item-input-error-message">La contraseña debe tener entre 8 y 16 caracteres y
+                                contener <br>
+                                al menos una mayúscula, una minúscula y un número<br></div>
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="input-nueva-rep" class="item-content item-input item-input-with-info">
+                    <div class="item-inner">
+                        <div class="item-title item-label">Repetir contraseña nueva</div>
+                        <div class="item-input-wrap">
+                            <input type="password" name="nueva-rep" id="nueva-rep" placeholder="Entre 8 y 16 caracteres"
+                                class="input-with-value input-invalid">
+                            <div class="item-input-error-message">La contraseña debe tener entre 8 y 16 caracteres y
+                                contener <br>
+                                al menos una mayúscula, una minúscula y un número<br></div>
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <div class="block">
+                    <p id="mensaje-alerta" class="mensaje-alerta"></p>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div id="cambiar-contrasenia" class="col button button-fill color-blue">Guardar</div>
+                    </div>
+                    <br>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>

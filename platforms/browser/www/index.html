@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta http-equiv="Content-Security-Policy" content="default-src *;
+   img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+   style-src  'self' 'unsafe-inline' *">
+
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#2196f3">
+  <!-- Your app title -->
+  <title>EduApp</title>
+  <!-- Path to Framework7 Library CSS -->
+  <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+  <!-- Path to your custom app styles-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/colores.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Statusbar overlay -->
+    <div class="statusbar"></div>
+
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+      <!-- <p>Hola amigos</p> -->
+      <!-- Initial Page, "data-name" contains page name -->
+      <!-- <div data-name="home" class="page"> -->
+
+        <!-- Top Navbar -->
+        <!-- <div class="navbar">
+          <div class="navbar-inner">
+            <div class="title">Inicio de sesión</div>
+          </div>
+        </div> -->
+
+
+        <!-- Scrollable page content -->
+        <!-- <div class="page-content">
+          <div class="page no-navbar no-toolbar no-swipeback">
+            <div class="page-content login-screen-content">
+              <div class="login-screen-title">
+                <center><input type=image id="EduAPP-logo" src="imagenes/eduapp.png" width="200" height="200">
+                </center>
+              </div>
+              <form id="login">
+                <div class="list">
+                  <ul>
+                    <li id="input-rut" class="item-content item-input item-input-with-info">
+                      <div class="item-inner">
+                        <div class="item-title item-label">Ingrese su RUT</div>
+                        <div class="item-input-wrap">
+                          <input type="text" name="rut" id="rut" placeholder="Su RUT" class="input-with-value input-invalid">
+                          <div class="item-input-error-message">El RUT no es válido o no tiene el formato adecuado</div>
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li id="input-password" class="item-content item-input item-input-with-info">
+                      <div class="item-inner">
+                        <div class="item-title item-label">Ingrese su contraseña</div>
+                        <div class="item-input-wrap">
+                          <input type="password" name="password" id="password"
+                            placeholder="Su contraseña" class="input-with-value input-invalid">
+                            <div class="item-input-error-message">La contraseña debe tener entre 8 y 16 caracteres y contener <br>
+                              al menos una mayúscula, una minúscula y un número</div>
+                            <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input type="hidden" name="_token" id="token" value="csrf_field()">
+                      <a class="item-link list-button">
+                        <button class="col button button-fill button-round no-ripple" id="loginBtn" value="Login">Ingresar
+                        </button>
+                      </a>
+
+                    </li>
+                  </ul>
+                  <div class="block-footer">
+                    <a href="" id="olvido-contraseña">
+                      <p>¿Olvidó su contraseña?</p>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div> -->
+      <!-- </div> -->
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+  <script type="text/javascript" src="js/my-app.js"></script>
+  <script type="text/javascript" src="js/validarut-chileno/jquery.rut.chileno.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+  <script type="text/javascript" src="js/inicio.js"></script>
+  <script type="text/javascript" src="js/notas.js"></script>
+  <script type="text/javascript" src="js/notasDetalles.js"></script>
+  <script type="text/javascript" src="js/actividades.js"></script>
+  <script type="text/javascript" src="js/avisos.js"></script>
+  <script type="text/javascript" src="js/cambiarContraseña.js"></script>
+</body>
+</html>
