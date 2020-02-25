@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="cl.ubiobio.eduapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <name>EduAPP</name>
     <description>
         A basic Framework7 template for PhoneGap.
@@ -15,6 +19,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <allow-intent href="market:*" />
     <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />

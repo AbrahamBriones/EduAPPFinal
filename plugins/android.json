@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "cl.ubiobio.eduapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cl.ubiobio.eduapp"
     }
   },
   "dependent_plugins": {}

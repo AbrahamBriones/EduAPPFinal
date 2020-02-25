@@ -63,7 +63,7 @@ var app = new Framework7({
       url: 'avisos.html',
     },{
       path: '/cambiarContraseña/',
-      url: 'cambiarContraseña.html',
+      url: 'cambiarContrasenia.html',
     },
   ]
   // ... other parameters
