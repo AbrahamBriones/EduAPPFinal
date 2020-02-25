@@ -1,7 +1,7 @@
 //Funcion que detecta cuando se inicia y carga el hmtl "inicio"
 $$(document).on('page:init', '.page[data-name="inicio"]', function (e) {
 
-  $.getJSON('http://parra.chillan.ubiobio.cl:8075/abraham.briones1501/public/api/alumnosporapoderado/' + localStorage.getItem("usuario"), function (data) {
+  $.getJSON('http://parra.chillan.ubiobio.cl:8075/abraham.briones1501/public/api/alumnosporapoderado/30', function (data) {
     //Si existen datos
     if (typeof data !== 'undefined' && data.length > 0) {
       // the array is defined and has at least one element
